@@ -4,21 +4,5 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
+    pass
 
-    dependencies = [
-        ('myapp', '0001_initial'),
-    ]
-
-    operations = [
-        migrations.CreateModel(
-            name='OptionInfo',
-            fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('type', models.CharField(max_length=30)),
-                ('rate', models.IntegerField()),
-                ('upfactor', models.IntegerField()),
-                ('downfactor', models.IntegerField()),
-                ('timeperiod', models.IntegerField()),
-            ],
-        ),
-    ]

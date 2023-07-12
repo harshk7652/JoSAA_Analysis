@@ -4,30 +4,5 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
+    pass
 
-    dependencies = [
-        ('myapp', '0002_optioninfo'),
-    ]
-
-    operations = [
-        migrations.AlterField(
-            model_name='optioninfo',
-            name='downfactor',
-            field=models.FloatField(),
-        ),
-        migrations.AlterField(
-            model_name='optioninfo',
-            name='rate',
-            field=models.FloatField(),
-        ),
-        migrations.AlterField(
-            model_name='optioninfo',
-            name='timeperiod',
-            field=models.FloatField(),
-        ),
-        migrations.AlterField(
-            model_name='optioninfo',
-            name='upfactor',
-            field=models.FloatField(),
-        ),
-    ]
